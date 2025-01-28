@@ -29,7 +29,7 @@
 
 import { useState } from 'react';
 
-export default function ExampleClassToFunctionComponent({ user }) {
+export default function ExampleClassToFunction({ user }) {
   const [detailsShown, setDetailsShown] = useState(false);
 
   if (user === undefined) {

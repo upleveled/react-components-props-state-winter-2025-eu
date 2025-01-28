@@ -1,20 +1,28 @@
+import ExampleArrayOfObjects from './ExampleArrayOfObjects';
+import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunction from './ExampleClassToFunction';
-import ExampleClassToFunctionClass from './ExampleClassToFunction';
 import ExampleComponents from './ExampleComponents';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
+import ExampleControlledComponentCheckboxes from './ExampleControlledComponentCheckboxes';
+import ExampleDataFetching from './ExampleDataFetching';
 import ExampleFormsWIthControlledComponents from './ExampleFormsWIthControlledComponents';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExamplePropDestructuring from './ExamplePropDestructuring';
 import ExampleProps from './ExampleProps';
+import ExamplePropTypes from './ExamplePropTypes';
+import ExampleReactAntiPattern from './ExampleReactAntiPattern';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
 import ExampleStylingOptions from './ExampleStylingOptions';
+import ExampleUseEffect from './ExampleUseEffect';
 
 export default function App() {
   return (
     <div>
+      <h1>Example: Data Fetching</h1>
+      <ExampleDataFetching />
       <h1>Example: Import and Export Components</h1>
       <ExampleComponents />
       <h1>Example: Props</h1>
@@ -47,7 +55,7 @@ export default function App() {
       <h1>Example: Styling Options</h1>
       <ExampleStylingOptions />
       <h1>Example: Class to Function</h1>
-      <ExampleClassToFunctionClass
+      <ExampleClassToFunction
         user={{
           details: 'details',
           name: 'Lukas',
@@ -56,6 +64,19 @@ export default function App() {
             'https://api.memegen.link/images/buzz/memes/memes_everywhere.png?width=400',
         }}
       />
+      <h1>Example: Children Props</h1>
+      <ExampleChildrenProps />
+      <h1>Example: Prop Types</h1>
+      <ExamplePropTypes />
+      <h1>Example: React Anti Pattern</h1>
+      <ExampleReactAntiPattern />
+      <h1>Example: Controlled Components with Checkboxes</h1>
+      <ExampleControlledComponentCheckboxes />
+      <h1>Example: Array of Objects</h1>
+      <ExampleArrayOfObjects />
+      <h1>Example: UseEffect</h1>
+      <ExampleUseEffect />
+
       <br />
       <br />
       <br />
