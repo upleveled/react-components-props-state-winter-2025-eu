@@ -11,9 +11,6 @@ importers:
       '@upleveled/react-scripts':
         specifier: 5.0.13
         version: 5.0.13(@types/babel__core@7.20.5)(eslint@8.57.1)(react@19.0.0)(sass@1.83.4)(type-fest@0.21.3)(typescript@5.7.3)
-      prop-types:
-        specifier: ^15.8.1
-        version: 15.8.1
       react:
         specifier: ^19.0.0
         version: 19.0.0

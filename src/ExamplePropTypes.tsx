@@ -1,6 +1,10 @@
-import checkPropTypes from 'prop-types/checkPropTypes';
+type Props = {
+  name: string;
+  age: number;
+  games: string[];
+};
 
-function User(props) {
+function User(props: Props) {
   return (
     <div
       style={{
@@ -20,5 +24,5 @@ function User(props) {
 }
 
 export default function ExamplePropTypes() {
-  return <User name="Lukas" age="string" games={['CS:GO', 'GTA']} />;
+  return <User name="Lukas" age={30} games={['CS:GO', 'GTA']} />;
 }

@@ -10,7 +10,7 @@ export default function ExampleStateNotSynchronous() {
     console.log('after', newValue);
   }
 
-  console.log('outside iof the function', isOn);
+  console.log('outside of the function', isOn);
 
   return (
     <div>
