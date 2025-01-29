@@ -5,15 +5,19 @@ import ExampleComponents from './ExampleComponents';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
 import ExampleControlledComponentCheckboxes from './ExampleControlledComponentCheckboxes';
 import ExampleDataFetching from './ExampleDataFetching';
+import ExampleDerivingState from './ExampleDerivingState';
 import ExampleFormsWIthControlledComponents from './ExampleFormsWIthControlledComponents';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExamplePropDestructuring from './ExamplePropDestructuring';
+import ExamplePropDrilling from './ExamplePropDrilling';
+import ExamplePropDrillingChildrenProp from './ExamplePropDrillingChildrenProp';
 import ExampleProps from './ExampleProps';
 import ExamplePropTypes from './ExamplePropTypes';
 import ExampleReactAntiPattern from './ExampleReactAntiPattern';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
+import ExampleStateManagement from './ExampleStateManagement';
 import ExampleStateNotSynchronous from './ExampleStateNotSynchronous';
 import ExampleStylingOptions from './ExampleStylingOptions';
 import ExampleUseEffect from './ExampleUseEffect';
@@ -76,7 +80,14 @@ export default function App() {
       <ExampleArrayOfObjects />
       <h1>Example: UseEffect</h1>
       <ExampleUseEffect />
-
+      <h1>Example: Deriving State vs. Extra State Variable</h1>
+      <ExampleDerivingState />
+      <h1>Example: Prop Drilling</h1>
+      <ExamplePropDrilling />
+      <h1>Example: Prop Drilling Children Prop</h1>
+      <ExamplePropDrillingChildrenProp />
+      <h1>Example: State Management</h1>
+      <ExampleStateManagement />
       <br />
       <br />
       <br />

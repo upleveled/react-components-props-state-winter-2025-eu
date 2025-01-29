@@ -26,7 +26,7 @@ export default function ExampleArrayOfObjects() {
       {users.map((user) => {
         return (
           <div key={`user-profile-${user.uuid}`}>
-            <img src={user.picture} alt="user pic" width={200} />
+            <img src={user.picture} alt="user pic" width={100} />
             <div>
               {user.name.title} {user.name.first} {user.name.last}
             </div>
