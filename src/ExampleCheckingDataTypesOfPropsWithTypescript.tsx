@@ -23,6 +23,6 @@ function User(props: Props) {
   );
 }
 
-export default function ExamplePropTypes() {
-  return <User name="Lukas" age={30} games={['CS:GO', 'GTA']} />;
+export default function ExampleCheckingDataTypesOfPropsWithTypescript() {
+  return <User name="Lukas" age={35} games={['CS:GO', 'GTA']} />;
 }

@@ -1,4 +1,5 @@
 import ExampleArrayOfObjects from './ExampleArrayOfObjects';
+import ExampleCheckingDataTypesOfPropsWithTypescript from './ExampleCheckingDataTypesOfPropsWithTypescript';
 import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunction from './ExampleClassToFunction';
 import ExampleComponents from './ExampleComponents';
@@ -13,7 +14,6 @@ import ExamplePropDestructuring from './ExamplePropDestructuring';
 import ExamplePropDrilling from './ExamplePropDrilling';
 import ExamplePropDrillingChildrenProp from './ExamplePropDrillingChildrenProp';
 import ExampleProps from './ExampleProps';
-import ExamplePropTypes from './ExamplePropTypes';
 import ExampleReactAntiPattern from './ExampleReactAntiPattern';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
@@ -70,8 +70,8 @@ export default function App() {
       />
       <h1>Example: Children Props</h1>
       <ExampleChildrenProps />
-      <h1>Example: Prop Types</h1>
-      <ExamplePropTypes />
+      <h1>Example: Checking Data Types Of Props With Typescript</h1>
+      <ExampleCheckingDataTypesOfPropsWithTypescript />
       <h1>Example: React Anti Pattern</h1>
       <ExampleReactAntiPattern />
       <h1>Example: Controlled Components with Checkboxes</h1>
